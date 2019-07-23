@@ -1,0 +1,32 @@
+body {
+  background-color: grey;
+  }
+
+.mainFrame {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+}
+
+.flex{
+  display: flex;
+  flex: 1 0 100%;
+  align-items: center;
+}
+
+ul {
+  margin:auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+form.flex {
+  flex-direction: column;
+}
+
+input, select, textarea {
+  width: 80%;
+  margin-top: 10px;
+}
